@@ -27,3 +27,5 @@
 <img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_monkey.png alt="macaque" width=800 height=150>
 
 ---
+### More resource
+See [https://github.com/TingsterX/PRIME-DE]
