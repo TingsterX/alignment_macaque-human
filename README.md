@@ -19,12 +19,18 @@
 
 ---
 ### Landmark (Relative Surface Area Human/Macaque)
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/landmarks/figure_landmarks.png alt="human" width=600 height=500>
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/landmarks/figure_landmarks.png alt="human" height=500>
 
 ---
 ### Evolutional Areal Expansion (Relative Surface Area Human/Macaque)
 <img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_human.png alt="human" width=800 height=150>
 <img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_monkey.png alt="macaque" width=800 height=150>
+
+---
+### Usage - align your own maps across species (topological contrained surface alignment)
+The folder `deformation_macaque-human` contains spherical deformation files necessary for align your data [Connectome Workbench is required](https://www.humanconnectome.org/software/connectome-workbench)
+- Macaque to human
+- Human to macaque
 
 ---
 ### More resource
