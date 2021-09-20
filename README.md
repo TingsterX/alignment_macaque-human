@@ -27,11 +27,25 @@
 <img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_monkey.png alt="macaque" height=150>
 
 ---
-### Usage - align your own maps across species (topological contrained surface alignment)
-The folder `deformation_macaque-human` contains spherical deformation files necessary for align your data [Connectome Workbench is required](https://www.humanconnectome.org/software/connectome-workbench)
-- Macaque to human
-- Human to macaque
+### Usage - align your own maps across species 
+The folder `deformation_macaque-human` contains spherical deformation files necessary for align your data [Connectome Workbench is required](https://www.humanconnectome.org/software/connectome-workbench).
 
+Note: This is topological contrained surface alignment. The original spherical alignment was created using [MSM](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MSM) on 10k resolution surfaces. 
+
+- `surfaces` folder contains the surface files for human and macaque. The human surface data need to be on the [standard surface spaces](https://osf.io/k89fh/wiki/Surface/) - 32k_fs_LR or 10k_fs_LR resolution. The macaque surface data need to be on [MacaqueYerkes19 surface space](https://balsa.wustl.edu/reference/976nz) - 32k_fs_LR or 10k_fs_LR resolution.
+- workbench command: `-metric-resample`, `-cifti-resample`, `-label-resample` 
+- Macaque (32k_fs_LR) to human: 
+current-sphere: `deformation_macaque-human/L.macaque-to-human.sphere.reg.32k_fs_LR.surf.gii` 
+new-sphere: `surfaces/Human/32k_fs_LR/S1200.L.sphere.32k_fs_LR.surf.gii` or `surfaces/Human/10k_fs_LR/S1200.L.sphere.10k_fs_LR.surf.gii`
+- Macaque (10k_fs_LR) to human: 
+current-sphere: `deformation_macaque-human/L.macaque-to-human.sphere.reg.10k_fs_LR.surf.gii` 
+new-sphere: `surfaces/Human/32k_fs_LR/S1200.L.sphere.32k_fs_LR.surf.gii` or `surfaces/Human/10k_fs_LR/S1200.L.sphere.10k_fs_LR.surf.gii`
+- Human (32k_fs_LR) to macaque
+current-sphere: `deformation_macaque-human/L.human-to-macaque.sphere.reg.32k_fs_LR.surf.gii` 
+new-sphere: `surfaces/Macaque/32k_fs_LR/MacaqueYerkes19.L.sphere.32k_fs_LR.surf.gii` or `surfaces/Macaque/10k_fs_LR/MacaqueYerkes19.L.sphere.10k_fs_LR.surf.gii`
+- Human (10k_fs_LR) to macaque
+current-sphere: `deformation_macaque-human/L.human-to-macaque.sphere.reg.10k_fs_LR.surf.gii` 
+new-sphere: `surfaces/Macaque/32k_fs_LR/MacaqueYerkes19.L.sphere.32k_fs_LR.surf.gii` or `surfaces/Macaque/10k_fs_LR/MacaqueYerkes19.L.sphere.10k_fs_LR.surf.gii`
 ---
 ### More resource
 See [https://github.com/TingsterX/PRIME-DE]
