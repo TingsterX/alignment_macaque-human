@@ -11,7 +11,7 @@
 ---
 ### Functional phylogenetic map  (functional connectivity homology index)
 
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/functional_homology/figure_functional_homology_map.png alt="homology map" width=600 height=338> 
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/functional_homology/figure_functional_homology_map.png alt="homology map" height=338> 
 
 ---
 ### Cross-species parcellation
@@ -23,8 +23,8 @@
 
 ---
 ### Evolutional Areal Expansion (Relative Surface Area Human/Macaque)
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_human.png alt="human" width=800 height=150>
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_monkey.png alt="macaque" width=800 height=150>
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_human.png alt="human" height=150>
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/area_expansion/figure_area_expansion_relative_0_36_monkey.png alt="macaque" height=150>
 
 ---
 ### Usage - align your own maps across species (topological contrained surface alignment)
