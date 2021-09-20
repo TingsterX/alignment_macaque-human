@@ -11,7 +11,7 @@
 ---
 ### Functional phylogenetic map  (functional connectivity homology index)
 
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/functional_homology/figure_functional_homology_map.png alt="homology map" height=338> 
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/functional_homology/figure_functional_homology_map.png alt="homology map" height=300> 
 
 ---
 ### Cross-species parcellation
@@ -19,7 +19,7 @@
 
 ---
 ### Landmark (Relative Surface Area Human/Macaque)
-<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/landmarks/figure_landmarks.png alt="human" height=500>
+<img src=https://github.com/TingsterX/alignment_macaque-human/blob/main/landmarks/figure_landmarks.png alt="human" height=400>
 
 ---
 ### Evolutional Areal Expansion (Relative Surface Area Human/Macaque)
